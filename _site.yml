@@ -19,4 +19,4 @@ navbar:
 output:
   html_document:
     theme: journal
-    css: ''
+    css: 'styles.css'
