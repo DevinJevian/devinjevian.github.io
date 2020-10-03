@@ -1,7 +1,8 @@
 name: "Devin Jevian"
 output_dir: "."
+type: Inverse
 navbar:
-  title: "Devin Jevian"
+  title: "Devin Jevian's personal homepage"
   left:
     - text: "About"
       href: about.html
@@ -19,4 +20,8 @@ navbar:
 output:
   html_document:
     theme: journal
-    css: 'styles.css'
+    highlight: breezedark
+    self_contained: false
+    css: css/style.css
+    includes:
+      after_body: _includes/footer.html
