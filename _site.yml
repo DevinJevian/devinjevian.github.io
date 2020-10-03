@@ -1,8 +1,8 @@
 name: "Devin Jevian"
 output_dir: "."
-type: Inverse
+type: inverse
 navbar:
-  title: "Devin Jevian's personal homepage"
+  title: ""
   left:
     - text: "About"
       href: about.html
@@ -21,7 +21,12 @@ output:
   html_document:
     theme: journal
     highlight: breezedark
+    toc_depth: 3
+    toc_float: 
+      collapsed: false
     self_contained: false
     css: css/style.css
     includes:
+      in_header: [_includes/google_tag_manager_head.html,_includes/google_analytics.html]
+      in_body: _includes/google_tag_manager_body.html
       after_body: _includes/footer.html
