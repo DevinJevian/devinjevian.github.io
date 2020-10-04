@@ -2,7 +2,7 @@ name: "Devin Jevian"
 output_dir: "."
 type: inverse
 navbar:
-  title: ""
+  title: "Home"
   left:
     - text: "About"
       href: about.html
