@@ -1,4 +1,4 @@
-name: "Devin Jevian"
+name: "Devin Jevian's personal homepage"
 output_dir: "."
 type: inverse
 navbar:
@@ -19,7 +19,7 @@ navbar:
       href: https://www.linkedin.com/in/devinjevian/
 output:
   html_document:
-    theme: journal
+    theme: simplex
     highlight: breezedark
     toc_depth: 3
     toc_float: 
